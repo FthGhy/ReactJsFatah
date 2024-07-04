@@ -1,6 +1,8 @@
 import Nav from "../Components/Nav";
 import Hero from "../Components/Hero";
 import Services from "../Components/Services";
+import Customers from "../Components/Customers"
+import ShowMenu from "../Components/ShowMenu"
 
 export default function HomePage() {
   return (
@@ -8,6 +10,8 @@ export default function HomePage() {
       <Nav/>
       <Hero/>
       <Services/>
+      
+      <Customers/>
     </>
   );
 }

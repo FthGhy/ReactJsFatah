@@ -61,9 +61,9 @@ export default function Nav() {
       </div>
     </a>
     <a href="#">
-      <div class="flex items-center bg-amber-700 text-white font-normal rounded-full text-sm px-5 text-center" role="alert">
+      <div className="flex items-center bg-amber-700 text-white font-normal rounded-full text-sm px-5 text-center" role="alert">
           <button type="button" className="flex items-center text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 text-center dark:bg-amber-700 dark:hover:bg-amber-700 dark:focus:ring-blue-800">
-          <svg class="w-4 h-4 text-putih dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
+          <svg className="w-4 h-4 text-putih dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3"/>
           </svg>
             Login
